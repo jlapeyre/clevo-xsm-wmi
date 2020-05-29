@@ -1540,6 +1540,14 @@ static struct dmi_system_id clevo_xsm_dmi_table[] __initdata = {
                 .callback = clevo_xsm_dmi_matched,
                 .driver_data = &kb_full_color_ops,
         },
+        {
+                .ident = "Notebook NH5xAx",  /* GJL */
+                .matches = {
+                        DMI_MATCH(DMI_PRODUCT_NAME, "NH5xAx"),
+                },
+                .callback = clevo_xsm_dmi_matched,
+                .driver_data = &kb_full_color_ops,
+        },
 	{
 		.ident = "Clevo N850HJ",
 		.matches = {
