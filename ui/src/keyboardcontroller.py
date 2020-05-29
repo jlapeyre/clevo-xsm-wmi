@@ -199,7 +199,7 @@ def get_keyboard_color():
 
     Returns a dict with the keyboard color information of left, mid and right region
     """
-    
+
     try:
         LOGGER.debug("read keyboard color file")
         with open(KEYBOARD_COLOR_FILE, "r") as kb_file:
@@ -211,7 +211,7 @@ def get_keyboard_color():
     color_list = color.split(" ")
 
     colors = {}
-    
+
     LOGGER.debug("create keyboard color dictonary")
     if len(color_list) == 1:
         return {
