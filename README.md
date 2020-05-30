@@ -1,3 +1,12 @@
+### This fork (GJL)
+
+* This fork adds entry for Clevo model NH5xAx. The entry is an exact copy of an existing entry.
+All features appear to work with this model.
+
+* There is a small amount of hacking towards pulling code out of the gui to allow a command line interface.
+
+The remainder of this README is the unedited, upstream, version.
+
 # The status and the future of TUXEDO / Clevo WMI
 Read this:
 https://bitbucket.org/tuxedocomputers/clevo-xsm-wmi/issues/44/the-status-and-the-future-of-tuxedo-clevo
